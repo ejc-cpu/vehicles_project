@@ -4,7 +4,7 @@ import plotly_express as px
 import streamlit as st
 
 # %%
-car_data = pd.read_csv(r'.\vehicles_us.csv')
+car_data = pd.read_csv(r'vehicles_us.csv')
 
 
 st.header('Cuadro de mandos')
